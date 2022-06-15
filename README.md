@@ -1,19 +1,24 @@
 
-# Laravel+Vue Crud Starter
+# LaravelVue POS & Inventory System
 
 
-[![Build Status](https://dev.azure.com/anowarhossain/laravel-vue-crud-starter/_apis/build/status/AnowarCST.laravel-vue-crud-starter?branchName=master)](https://dev.azure.com/anowarhossain/laravel-vue-crud-starter/_build/latest?definitionId=6&branchName=master)
+[![](https://img.shields.io/badge/Laravel%20-8-F05340)](https://laravel.com/docs/8.x/readme)
+[![](https://img.shields.io/badge/Vue-2.6.14-41B883)](https://vuejs.org/guide/quick-start.html)
+[![](https://img.shields.io/badge/Admin%20LTE%20-3-lightgrey)](https://adminlte.io/docs/3.0/layout.html)
+[![](https://img.shields.io/badge/Bootstrap%20-4-%230099CC)](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+[![](https://img.shields.io/badge/Bootstrapvue%20-2.21.2-blueviolet)](https://bootstrap-vue.org/)
+[![](https://img.shields.io/badge/sweetalert2-9.17.2-violet)](https://sweetalert2.github.io/)
 
 
 ## About Repository
 
-A very simple Laravel 8 + Vue 2 + AdminLTE 3 based Curd Starter template for SPA Application.
-<p align="center">
+A Laravel 8 fully functional Point of Sale(POS) and Inventory System + Vue 2 + AdminLTE 3 based for SPA Application.
+<!-- <p align="center">
 <img src="https://i.imgur.com/mZAHbUL.png">
 <img src="https://i.imgur.com/3hhoQnq.png">
 <img src="https://i.imgur.com/aHtQkYl.png">
 <img src="https://i.imgur.com/V7OuwLn.png">
-</p>
+</p> -->
 
 ## Tech Specification
 
