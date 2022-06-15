@@ -1,0 +1,53 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --disable-host-check --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "@vue/composition-api": "^1.4.0-beta.0",
+        "axios": "^0.21.4",
+        "bootstrap": "^4.6.0",
+        "cross-env": "^5.1",
+        "jquery": "^3.6.0",
+        "laravel-mix": "^5.0.9",
+        "lodash": "^4.17.21",
+        "popper.js": "^1.12",
+        "resolve-url-loader": "^2.3.1",
+        "sass": "^1.32.4",
+        "sass-loader": "7.*",
+        "vue": "^2.6.14",
+        "vue-template-compiler": "^2.6.14"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.2",
+        "@johmun/vue-tags-input": "^2.1.0",
+        "@orim181/vue-chartkick": "^0.6.1",
+        "admin-lte": "^3.1.0",
+        "bootstrap-vue": "^2.21.2",
+        "chart.js": "^3.6.0",
+        "echarts": "^5.2.2",
+        "html2canvas": "^1.4.1",
+        "laravel-vue-pagination": "^2.3.1",
+        "moment": "^2.29.3",
+        "moment-timezone": "^0.5.33",
+        "sweetalert2": "^9.17.2",
+        "vform": "^1.0.1",
+        "vue-chartjs": "^1.1.3",
+        "vue-chartkick": "^1.1.0",
+        "vue-clickaway": "^2.2.2",
+        "vue-d3-charts": "^0.2.8",
+        "vue-echarts": "^6.0.0",
+        "vue-google-charts": "^0.3.3",
+        "vue-html-to-paper": "^1.4.4",
+        "vue-json-excel": "^0.3.0",
+        "vue-loader": "^15.9.8",
+        "vue-progressbar": "^0.7.5",
+        "vue-router": "^3.4.9"
+    }
+}

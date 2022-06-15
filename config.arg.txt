@@ -1,0 +1,3 @@
+:style:hidden
+
+C:\Users\Abi\laravel-starter\InventoryServer.bat
