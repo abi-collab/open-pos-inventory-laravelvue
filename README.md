@@ -66,6 +66,28 @@ A fully functional Open-Source Point of Sale (POS) and Inventory System made fro
 
 [MIT license](https://opensource.org/licenses/MIT).
 
-## Screen shots
+## Screen shots (Admin Access)
+### Dashboard
+![alt text](https://github.com/abi-collab/open-pos-inventory-laravelvue/blob/master/public/forMDimgs/dashboard.png?raw=true)
+### Invoice
+![alt text](https://github.com/abi-collab/open-pos-inventory-laravelvue/blob/master/public/forMDimgs/invoice.png?raw=true)
+### Customers
+![alt text](https://github.com/abi-collab/open-pos-inventory-laravelvue/blob/master/public/forMDimgs/customers.png?raw=true)
+### Items
+![alt text](https://github.com/abi-collab/open-pos-inventory-laravelvue/blob/master/public/forMDimgs/items.png?raw=true)
+### Serial Numbers
+![alt text](https://github.com/abi-collab/open-pos-inventory-laravelvue/blob/master/public/forMDimgs/serialnos.png?raw=true)
+### Returns
+![alt text](https://github.com/abi-collab/open-pos-inventory-laravelvue/blob/master/public/forMDimgs/returns.png?raw=true)
+### Category
+![alt text](https://github.com/abi-collab/open-pos-inventory-laravelvue/blob/master/public/forMDimgs/category.png?raw=true)
+### Users
+![alt text](https://github.com/abi-collab/open-pos-inventory-laravelvue/blob/master/public/forMDimgs/users.png?raw=true)
+## Screen shots (Standard User Access)
+![alt text](https://github.com/abi-collab/open-pos-inventory-laravelvue/blob/master/public/forMDimgs/users.png?raw=true)
+
+
+
+
 
 
