@@ -1,5 +1,6 @@
 
 # Laravel+Vue Point of Sale(POS) & Inventory System
+A fully functional Open-Source Point of Sale (POS) and Inventory System made from Laravel8 + Vue2 + AdminLTE 3 based for SPA Application.
 
 [![Alt](https://img.shields.io/badge/Laravel%20-8-F05340)](https://laravel.com/docs/8.x/readme)
 [![Alt](https://img.shields.io/badge/Vue-2.6.14-41B883)](https://vuejs.org/guide/quick-start.html)
@@ -7,10 +8,6 @@
 [![Alt](https://img.shields.io/badge/Bootstrap%20-4-%230099CC)](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 [![Alt](https://img.shields.io/badge/Bootstrapvue%20-2.21.2-blueviolet)](https://bootstrap-vue.org/)
 [![Alt](https://img.shields.io/badge/sweetalert2-9.17.2-violet)](https://sweetalert2.github.io/)
-
-## About Repository
-
-A fully functional Open-Source Point of Sale (POS) and Inventory System made from Laravel8 + Vue2 + AdminLTE 3 based for SPA Application.
 
 ## Getting Started
 
