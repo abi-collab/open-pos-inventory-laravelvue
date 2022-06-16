@@ -106,7 +106,7 @@
         <br />
         <br />
         <b-input
-          placeholder="enter serial"
+          placeholder="enter serial number"
           v-model="serial"
           @keyup.enter="onEnter"
         ></b-input>

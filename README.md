@@ -1,5 +1,6 @@
 
 # Laravel+Vue Point of Sale(POS) & Inventory System
+
 A fully functional Open-Source Point of Sale (POS) and Inventory System made from Laravel8 + Vue2 + AdminLTE 3 based for SPA Application.
 
 [![Alt](https://img.shields.io/badge/Laravel%20-8-F05340)](https://laravel.com/docs/8.x/readme)
@@ -35,25 +36,25 @@ A fully functional Open-Source Point of Sale (POS) and Inventory System made fro
 - Developer Options for OAuth Clients and Personal Access Token
 - Build with Docker
 - **Simple Dynamic Dashboard:**
-    * Displays widgets of sales report
-    * Stock indicators
-    * Table of sales
-    * Filtering options
+  - Displays widgets of sales report
+  - Stock indicators
+  - Table of sales
+  - Filtering options
 - **Invoice:**
-    * Manage Customer Purchase(Serial number base)
-    * Print Invoice
+  - Manage Customer Purchase(Serial number base)
+  - Print Invoice
 - **Product Management:**
-    * Create, display, edit/update & delete an item
+  - Create, display, edit/update & delete an item
 - **Product's Serial Number Management:**
-    * enter a serial number for every piece of product created
+  - enter a serial number for every piece of product created
 - **Customer Management:**
-    * Create, display, edit/update & delete a customer
+  - Create, display, edit/update & delete a customer
 - **Return Products:**
-    * Manage every returned products
+  - Manage every returned products
 - **User Management:**
-    * Create, display, edit/update & delete a user
+  - Create, display, edit/update & delete a user
 - **Category Management**
-    * Create, display & edit/update a product category
+  - Create, display & edit/update a product category
 
 ## Project Structure
 
@@ -64,27 +65,39 @@ A fully functional Open-Source Point of Sale (POS) and Inventory System made fro
 [MIT license](https://opensource.org/licenses/MIT).
 
 ## Screen shots (Admin Access)
+
 ### Dashboard
+
 ![alt text](https://github.com/abi-collab/open-pos-inventory-laravelvue/blob/master/public/forMDimgs/dashboard.png?raw=true)
+
 ### Invoice
+
 ![alt text](https://github.com/abi-collab/open-pos-inventory-laravelvue/blob/master/public/forMDimgs/invoice.png?raw=true)
+
 ### Customers
+
 ![alt text](https://github.com/abi-collab/open-pos-inventory-laravelvue/blob/master/public/forMDimgs/customers.png?raw=true)
+
 ### Items
+
 ![alt text](https://github.com/abi-collab/open-pos-inventory-laravelvue/blob/master/public/forMDimgs/items.png?raw=true)
+
 ### Serial Numbers
+
 ![alt text](https://github.com/abi-collab/open-pos-inventory-laravelvue/blob/master/public/forMDimgs/serialnos.png?raw=true)
+
 ### Returns
+
 ![alt text](https://github.com/abi-collab/open-pos-inventory-laravelvue/blob/master/public/forMDimgs/returns.png?raw=true)
+
 ### Category
+
 ![alt text](https://github.com/abi-collab/open-pos-inventory-laravelvue/blob/master/public/forMDimgs/category.png?raw=true)
+
 ### Users
+
 ![alt text](https://github.com/abi-collab/open-pos-inventory-laravelvue/blob/master/public/forMDimgs/users.png?raw=true)
+
 ## Screen shots (Standard User Access)
+
 ![alt text](https://github.com/abi-collab/open-pos-inventory-laravelvue/blob/master/public/forMDimgs/users.png?raw=true)
-
-
-
-
-
-
