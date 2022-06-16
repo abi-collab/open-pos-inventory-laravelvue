@@ -29,8 +29,6 @@ A Laravel 8 fully functional Point of Sale(POS) and Inventory System + Vue 2 + A
 - `npm run dev`
 - `php artisan serve`
 
----
-
 ## Project Features
 
 - Modal based Create + Edit, List with Pagination, Delete with Sweetalert
@@ -48,13 +46,9 @@ A Laravel 8 fully functional Point of Sale(POS) and Inventory System + Vue 2 + A
 - Developer Options for OAuth Clients and Personal Access Token
 - Build with Docker
 
----
-
 ## Project Structure
 
 ![alt text](https://github.com/abi-collab/pos-inventory-laravelvue/blob/master/public/images/tree.png?raw=true)
-
----
 
 ## License
 
