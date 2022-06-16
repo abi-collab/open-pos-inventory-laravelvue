@@ -37,26 +37,26 @@ A fully functional Open-Source Point of Sale (POS) and Inventory System made fro
 - Frontend and Backend User ACL with Gate Policy (type: admin/user)
 - Developer Options for OAuth Clients and Personal Access Token
 - Build with Docker
-- Simple Dynamic Dashboard:
+- **Simple Dynamic Dashboard:**
     * Displays widgets of sales report
     * Stock indicators
     * Table of sales
     * Filtering options
-- Invoice:
+- **Invoice:**
     * Manage Customer Purchase(Serial number base)
     * Print Invoice
-- Product Management:
+- **Product Management:**
     * Create, display, edit/update & delete an item
-- Product's Serial Number Management:
+- **Product's Serial Number Management:**
     * enter a serial number for every piece of product created
-- Customer Management:
+- **Customer Management:**
     * Create, display, edit/update & delete a customer
-- Return Products:
+- **Return Products:**
     * Manage every returned products
-- User Management:
+- **User Management:**
     * Create, display, edit/update & delete a user
-- Category Management
-    Create, display & edit/update a product category
+- **Category Management**
+    * Create, display & edit/update a product category
 
 ## Project Structure
 
@@ -65,3 +65,7 @@ A fully functional Open-Source Point of Sale (POS) and Inventory System made fro
 ## License
 
 [MIT license](https://opensource.org/licenses/MIT).
+
+## Screen shots
+
+
