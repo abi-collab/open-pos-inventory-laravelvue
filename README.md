@@ -10,7 +10,7 @@
 
 ## About Repository
 
-A Laravel 8 fully functional Point of Sale(POS) and Inventory System + Vue 2 + AdminLTE 3 based for SPA Application.
+A fully functional Open-Source Point of Sale (POS) and Inventory System made from Laravel8 + Vue2 + AdminLTE 3 based for SPA Application.
 
 ## Getting Started
 
@@ -29,22 +29,34 @@ A Laravel 8 fully functional Point of Sale(POS) and Inventory System + Vue 2 + A
 - `npm run dev`
 - `php artisan serve`
 
-## Project Features
+## Project Module/Features
 
 - Modal based Create + Edit, List with Pagination, Delete with Sweetalert
 - Login, Register, Forget + Reset Password as default auth
 - Profile, Update Profile, Change Password, Avatar
-- Simple Dynamic Dashboard
-- Invoice
-- Product Management
-- Product's Serial Number Management
-- Customer Management
-- Return Products
-- User Management
-- Settings: Categories, Users
 - Frontend and Backend User ACL with Gate Policy (type: admin/user)
 - Developer Options for OAuth Clients and Personal Access Token
 - Build with Docker
+- Simple Dynamic Dashboard:
+    * Displays widgets of sales report
+    * Stock indicators
+    * Table of sales
+    * Filtering options
+- Invoice:
+    * Manage Customer Purchase(Serial number base)
+    * Print Invoice
+- Product Management:
+    * Create, display, edit/update & delete an item
+- Product's Serial Number Management:
+    * enter a serial number for every piece of product created
+- Customer Management:
+    * Create, display, edit/update & delete a customer
+- Return Products:
+    * Manage every returned products
+- User Management:
+    * Create, display, edit/update & delete a user
+- Category Management
+    Create, display & edit/update a product category
 
 ## Project Structure
 
