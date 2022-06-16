@@ -1,5 +1,5 @@
 
-# LaravelVue POS & Inventory System
+# Laravel+Vue Point of Sale(POS) & Inventory System
 
 [![Alt](https://img.shields.io/badge/Laravel%20-8-F05340)](https://laravel.com/docs/8.x/readme)
 [![Alt](https://img.shields.io/badge/Vue-2.6.14-41B883)](https://vuejs.org/guide/quick-start.html)
