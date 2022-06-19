@@ -15,7 +15,7 @@ A fully functional Open-Source Point of Sale (POS) and Inventory System made fro
 ### Installation
 
 - `git clone https://github.com/abi-collab/pos-inventory-laravelvue.git`
-- `cd pos-inventory-laravelvue/`
+- `cd open-pos-inventory-laravelvue/`
 - `composer install`
 - `cp .env.example .env`
 - Update `.env` and set your database credentials
