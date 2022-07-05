@@ -13,27 +13,18 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\Artisan;
 
-
-Route::get('/', function () {
-    return view('welcome');
-});
-
-// Auth::routes(['verify' => true]);
 Auth::routes(['register' => true]);
 
+Route::view('/', 'welcome');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
 Route::get('home', function () {
-
-    // Artisan::call('backup:run', ['--only-db' => true]);
     return redirect('/dashboard');
 });
 
-
 Route::get('/{vue_capture?}', function () {
     return view('home');
-})->where('vue_capture', '[\/\w\.-]*')->middleware('auth');
+})->where('vue_capture', '[\/\w\.-]*')
+    ->middleware('auth');
 
 

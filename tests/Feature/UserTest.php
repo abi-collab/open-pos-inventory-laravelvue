@@ -3,18 +3,12 @@
 namespace Tests\Feature;
 
 use App\Models\User;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
+use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
 
 class UserTest extends TestCase
 {
-    use WithFaker;
-
-    protected function setUp(): void
-    {
-        parent::setUp();
-    }
+    use DatabaseMigrations;
 
     /**
      * Test User List for Admin
@@ -25,11 +19,10 @@ class UserTest extends TestCase
     {
         $user = User::factory()->create();
 
-        $response = $this->actingAs($user, 'api')
-            ->getJson('/api/user');
-
-        $response
-            ->assertStatus(200)
+        $this->actingAs($user, 'api')
+            ->getJson('/api/user')
+            ->assertOk()
+            ->assertSuccessful()
             ->assertJson([
                 'success' => true,
                 'data' => true,
@@ -67,9 +60,9 @@ class UserTest extends TestCase
         $user = User::factory()->create();
 
         $data = [
-            'name' => $this->faker->name,
-            'email' => $this->faker->unique()->safeEmail,
-            'password' => bcrypt(123456), // password
+            'name' => fake()->name,
+            'email' => fake()->unique()->email(),
+            'password' => \Hash::make("123456"),
             'type' => 'user',
         ];
 
@@ -93,7 +86,7 @@ class UserTest extends TestCase
         $user = User::factory()->create();
 
         $data = [
-            'name' => $this->faker->name,
+            'name' => fake()->name(),
             'type' => 'admin',
         ];
 

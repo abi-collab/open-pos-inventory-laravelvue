@@ -3,29 +3,40 @@
 namespace Tests\Feature;
 
 use App\Models\User;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
+use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
 
 class CategoryTest extends TestCase
 {
+    use DatabaseMigrations;
+
     /**
-     * Test Category List
-     *
-     * @return void
+     * @test
      */
-    public function testCategoryList()
+    public function it_can_access_category_list()
     {
         $user = User::factory()->create();
+        $this->actingAs($user, 'api');
+        $this->get(route('category.list'))->assertOk()->assertSuccessful();
+    }
 
-        $response = $this->actingAs($user, 'api')
-            ->getJson('/api/category');
+    /**
+     * @test
+     */
+    public function it_can_access_index()
+    {
+        $user = User::factory()->create();
+        $this->actingAs($user, 'api');
+        $this->get(route('category.index'))->assertOk()->assertSuccessful();
+    }
 
-        $response
-            ->assertStatus(200)
-            ->assertJson([
-                'success' => true,
-                'data' => true,
-            ]);
+    /**
+     * @test
+     */
+    public function it_can_store_category()
+    {
+        $user = User::factory()->create();
+        $this->actingAs($user, 'api');
+        $this->post(route('category.store'))->assertOk()->assertSuccessful();
     }
 }

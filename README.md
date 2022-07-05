@@ -12,7 +12,7 @@ A fully functional Open-Source Point of Sale (POS) and Inventory System made fro
 
 ## Getting Started
 
-### Installation
+### Installation (without Docker)
 
 - `git clone https://github.com/abi-collab/pos-inventory-laravelvue.git`
 - `cd open-pos-inventory-laravelvue/`
@@ -26,6 +26,20 @@ A fully functional Open-Source Point of Sale (POS) and Inventory System made fro
 - `npm install`
 - `npm run dev`
 - `php artisan serve`
+
+### Installation (using Docker)
+
+- `git clone https://github.com/abi-collab/pos-inventory-laravelvue.git`
+- `cd open-pos-inventory-laravelvue/`
+- `cp .env.example .env`
+- `vendor/bin/sail up`
+- `vendor/bin/sail composer install`
+- `vendor/bin/sail artisan key:generate`
+- `vendor/bin/sail artisan migrate`
+- `vendor/bin/sail artisan db:seed`
+- `vendor/bin/sail artisan passport:install`
+- `vendor/bin/sail artisan npm install`
+- `vendor/bin/sail artisan npm run dev`
 
 ## Project Module/Features
 
