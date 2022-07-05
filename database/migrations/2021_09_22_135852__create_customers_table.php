@@ -15,21 +15,11 @@ class CreateCustomersTable extends Migration
     {
         Schema::create('customers', function (Blueprint $table) {
             $table->id();
-            // $table->uuid('id')->primary();
-            $table->timestamps();
             $table->string('name');
             $table->string('contactNo');
             $table->string('address');
+            $table->timestamps();
         });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('customers');
-    }
 }

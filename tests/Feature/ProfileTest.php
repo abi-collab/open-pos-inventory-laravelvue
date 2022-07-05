@@ -3,20 +3,12 @@
 namespace Tests\Feature;
 
 use App\Models\User;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
+use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
-use Faker\Generator as Faker;
 
 class ProfileTest extends TestCase
 {
-    use WithFaker;
-
-    protected function setUp(): void
-    {
-        parent::setUp();
-    }
-
+    use DatabaseMigrations;
     /**
      * Test Auth user profile data
      *
